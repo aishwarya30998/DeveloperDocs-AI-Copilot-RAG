@@ -12,6 +12,12 @@ __pycache__/
 dist/
 build/
 
+# Ignore vector database files
+data/vectordb/
+
+# Ignore Python cache files
+src/__pycache__/
+
 # Data & Vector DB (generated at runtime)
 data/
 
