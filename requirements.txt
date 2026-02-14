@@ -1,0 +1,40 @@
+# Core Dependencies
+python-dotenv==1.0.0
+gradio==4.44.0
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-huggingface==0.0.1
+
+# Vector Store & Embeddings
+chromadb==0.4.22
+sentence-transformers==2.6.0
+
+# Document Processing
+beautifulsoup4==4.12.3
+lxml==5.1.0
+markdownify==0.11.6
+pypdf==3.17.4
+
+# RAG Evaluation
+ragas==0.1.7
+datasets==2.16.1
+
+# API & Monitoring
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Utilities
+requests==2.31.0
+tqdm==4.66.1
+python-multipart==0.0.9
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+
+# Hugging Face
+huggingface-hub==0.27.0
+transformers==4.40.0
